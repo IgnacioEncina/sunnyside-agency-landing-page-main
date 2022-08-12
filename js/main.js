@@ -6,7 +6,6 @@ window.addEventListener('load', () => {
     const burger = document.querySelector('.header-right-burger');
     
     menu.style.height = '0px';
-    menu.style.opacity = '0';
 
     mostrarNav( window.screen.width );
 
@@ -32,8 +31,12 @@ window.addEventListener('load', () => {
         console.log(width);
         if( width > 786 ){
             menu.style.visibility = 'visible';
+            menu.style.height = '300px';
+            menu.style.opacity = '1';
         } else {
             menu.style.visibility = 'hidden';
+            menu.style.height = '0px';
+            menu.style.opacity = '0';
         }
     }
 
