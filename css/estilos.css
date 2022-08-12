@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -53,7 +54,7 @@ h5 {
   justify-content: flex-start;
 }
 .header-left img {
-  width: 200px;
+  width: 180px;
   height: 100%;
 }
 .header-right {
@@ -182,14 +183,15 @@ h5 {
   display: flex;
   flex-direction: column;
   width: 63%;
+  margin-left: 30px;
   height: 70%;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-evenly;
   text-align: left;
+  align-items: flex-start;
 }
 .main-uno-a-cuadro-interior p {
   line-height: 1.5;
-  color: hsl(210deg, 4%, 67%);
+  color: hsl(213deg, 9%, 39%);
 }
 .main-uno-a-cuadro-interior a {
   font-family: "Fraunces", serif;
@@ -201,7 +203,7 @@ h5 {
 }
 .main-uno-a-cuadro-interior a hr {
   height: 12px;
-  width: 163px;
+  width: 150px;
   background-color: rgba(244, 228, 1, 0.4745098039);
   border: none;
   border-radius: 5px;
@@ -251,7 +253,7 @@ h5 {
 }
 .main-uno-b-cuadro-interior p {
   line-height: 1.5;
-  color: hsl(210deg, 4%, 67%);
+  color: hsl(213deg, 9%, 39%);
 }
 .main-uno-b-cuadro-interior a {
   font-family: "Fraunces", serif;
@@ -263,7 +265,7 @@ h5 {
 }
 .main-uno-b-cuadro-interior a hr {
   height: 12px;
-  width: 163px;
+  width: 150px;
   background-color: rgba(254, 118, 104, 0.53);
   border: none;
   border-radius: 5px;
@@ -306,7 +308,7 @@ h5 {
   align-items: flex-end;
 }
 .main-dos-left-texto {
-  color: hsl(167deg, 40%, 24%);
+  color: hsl(213deg, 9%, 39%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -383,6 +385,9 @@ h5 {
   width: 70px;
   height: 70px;
 }
+.main-tres-testimonios-all-testi {
+  color: hsl(213deg, 9%, 39%);
+}
 .main-tres-testimonios-all-credencial {
   height: 70px;
   display: flex;
@@ -392,6 +397,7 @@ h5 {
 }
 .main-tres-testimonios-all-credencial p {
   color: hsl(210deg, 4%, 67%);
+  font-size: 15px;
 }
 .main-cuatro {
   width: 100%;
